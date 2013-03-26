@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, UMaine!</string>
+    <string name="app_name">UMaine</string>
+	<string name="depart_prompt">Department</string>
+	<string name="coursenum_prompt">Course Number</string>
+	<string name="section_prompt">Section Number</string>
+	<string name="courselist_directions">Press the menu button to add/delete a course.</string>
+	<color name="maine_blue">#c0003263</color>
+	<color name="maine_lightblue">#ffb0d7ff</color>
+	<color name="maine_whiteblue">#ffdeeeff</color>
+	<color name="maine_white">#ffffffff</color>
+	<string-array name="parkingspot_dialog_choices">
+		<item>Save current location as new space.</item>
+		<item>Load current location of last space.</item>
+	</string-array>
+	<string-array name="departments">
+		<item>AED</item>
+		<item>ANT</item>
+		<item>ARH</item>
+		<item>ARP</item>
+		<item>ART</item>
+		<item>AST</item>
+		<item>AVS</item>
+		<item>BIO</item>
+		<item>BLE</item>
+		<item>BMB</item>
+		<item>BMS</item>
+		<item>BUA</item>
+		<item>CEC</item>
+		<item>CET</item>
+		<item>CHB</item>
+		<item>CHE</item>
+		<item>CHF</item>
+		<item>CHY</item>
+		<item>CIE</item>
+		<item>CLA</item>
+		<item>CMJ</item>
+		<item>COS</item>
+		<item>CSD</item>
+		<item>DAN</item>
+		<item>DIS</item>
+		<item>EAD</item>
+		<item>ECE</item>
+		<item>ECO</item>
+		<item>ECP</item>
+		<item>EDB</item>
+		<item>EDC</item>
+		<item>EDG</item>
+		<item>EDH</item>
+		<item>EDS</item>
+		<item>EDT</item>
+		<item>EDU</item>
+		<item>EDW</item>
+		<item>EEL</item>
+		<item>EES</item>
+		<item>EET</item>
+		<item>ELL</item>
+		<item>EMA</item>
+		<item>ENG</item>
+		<item>EPY</item>
+		<item>ERL</item>
+		<item>ERR</item>
+		<item>ERS</item>
+		<item>ESC</item>
+		<item>ESS</item>
+		<item>FAS</item>
+		<item>FES</item>
+		<item>FND</item>
+		<item>FRE</item>
+		<item>FSC</item>
+		<item>FSN</item>
+		<item>FTY</item>
+		<item>FYS</item>
+		<item>GEE</item>
+		<item>GEO</item>
+		<item>GER</item>
+		<item>GRR</item>
+		<item>HED</item>
+		<item>HON</item>
+		<item>HTY</item>
+		<item>HUD</item>
+		<item>IEI</item>
+		<item>IMD</item>
+		<item>INA</item>
+		<item>IND</item>
+		<item>INT</item>
+		<item>INV</item>
+		<item>KPE</item>
+		<item>LAS</item>
+		<item>LAT</item>
+		<item>LBR</item>
+		<item>LIB</item>
+		<item>MAT</item>
+		<item>MEE</item>
+		<item>MES</item>
+		<item>MET</item>
+		<item>MLC</item>
+		<item>MSE</item>
+		<item>MSL</item>
+		<item>MUE</item>
+		<item>MUH</item>
+		<item>MUL</item>
+		<item>MUO</item>
+		<item>MUP</item>
+		<item>MUS</item>
+		<item>MUY</item>
+		<item>NAS</item>
+		<item>NAV</item>
+		<item>NMD</item>
+		<item>NUR</item>
+		<item>ONM</item>
+		<item>ONO</item>
+		<item>ONR</item>
+		<item>ONS</item>
+		<item>PAA</item>
+		<item>PAX</item>
+		<item>PHI</item>
+		<item>PHY</item>
+		<item>POS</item>
+		<item>PPA</item>
+		<item>PRT</item>
+		<item>PSE</item>
+		<item>PSY</item>
+		<item>QUS</item>
+		<item>SAR</item>
+		<item>SED</item>
+		<item>SEI</item>
+		<item>SIE</item>
+		<item>SMS</item>
+		<item>SMT</item>
+		<item>SOC</item>
+		<item>SPA</item>
+		<item>SPI</item>
+		<item>STT</item>
+		<item>SVT</item>
+		<item>SWK</item>
+		<item>THE</item>
+		<item>TME</item>
+		<item>UST</item>
+		<item>VOX</item>
+		<item>WLE</item>
+		<item>WSC</item>
+		<item>WST</item>
+	</string-array>
+	
+	
+
+    <string name="start_title">Start!!</string>
+    <string name="hello_sports">Please select!</string>
+    <string name="allSch_button_title">all schedule</string>
+    <string name="hockeySch_button_title">hockey schedule</string>
+    <string name="basketballSch_button_title">basketball schedule</string>
+    <string name="othersSch_button_title">others schedule</string>
+    <string name="sports_title">Date\t\t\tEvent\t\t\t\tLocation\t\t\tTime</string>
+    <string name ="search_title">Date\t\tEvent\t\t\tLocation\t\t\tTime</string>
+    
+    <string name = "test">test</string>
+    
+    <string-array name="athletics_feeds">
+    	<item>Athletics Top Stories</item>
+    	<item>Football</item>
+    	<item>Men\'s Ice Hockey</item>
+    	<item>Women\'s Ice Hockey</item>
+    	<item>Field Hockey</item>
+    	<item>Baseball</item>
+    	<item>Softball</item>
+    	<item>Soccer</item>
+    	<item>Men\'s Basketball</item>
+    	<item>Women\'s Basketball</item>
+    	<item>Men\'s Cross Country</item>
+    	<item>Women\'s Cross Country</item>
+    	<item>Men\'s Swimming</item>
+    	<item>Women\'s Swimming</item>
+    	<item>Men\'s Track and Field</item>
+    	<item>Women\'s Track and Field</item>
+    </string-array>
+        <string-array name="athletics_links">
+    	<item>http://www.goblackbears.com/landing/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/m-footbl/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/m-hockey/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/w-hockey/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/w-fieldh/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/m-basebl/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/w-softbl/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/w-soccer/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/m-baskbl/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/w-baskbl/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/m-xc/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/w-xc/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/m-swimonly/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/w-swimonly/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/m-track/headlines-featured?feed=rss_2.0</item>
+    	<item>http://www.goblackbears.com/sports/w-track/headlines-featured?feed=rss_2.0</item>
+    </string-array>
+        <string-array name="sports_schedule">
+    	<item>Football</item>
+    	<item>Field Hockey</item>
+    	<item>Baseball</item>
+    	<item>Softball</item>
+    	<item>Soccer</item>
+    	<item>Men\'s Cross Country</item>
+    	<item>Women\'s Cross Country</item>
+    	<item>Men\'s Swimming</item>
+    	<item>Women\'s Swimming</item>
+    	<item>Men\'s Track and Field</item>
+    	<item>Women\'s Track and Field</item>
+    </string-array>
+</resources>

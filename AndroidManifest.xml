@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.umece.android.umaine"
+      android:versionCode="9"
+      android:versionName="1.2">
+      
+    <uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
+        <activity android:name=".UMaine"
+        			android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name=".UMMap" android:theme="@android:style/Theme.Black.NoTitleBar"></activity>
+		<activity android:name=".UMCourses" android:screenOrientation="portrait"></activity>
+
+
+		<activity android:name=".sports.UMSports" android:label="@string/sports_title" android:screenOrientation="portrait" android:theme="@style/CustomTheme"></activity>
+		<activity android:name=".sports.SportsDisplayisplay" android:screenOrientation="portrait"></activity>
+		<activity android:name=".UMCourseDetails"></activity>
+		<activity android:name=".UMDirectory"></activity>
+		<activity android:name=".UMDirectoryDetails" android:screenOrientation="portrait"></activity>
+		
+		<activity android:name=".sports.SportsDisplaySchAll" android:screenOrientation="portrait"></activity>
+		<activity android:name=".sports.SportsDisplaySchHockey" android:screenOrientation="portrait"></activity>
+		<activity android:name=".sports.SportsDisplaySchBasketball" android:screenOrientation="portrait"></activity>
+		<activity android:name=".sports.SportsDisplaySchOthers" android:screenOrientation="portrait"></activity>
+		<activity android:name=".sports.SportsDisplaySchOthersNew" android:screenOrientation="portrait"></activity>
+		
+		<activity android:name=".RSSActivity" android:screenOrientation="portrait" > </activity>
+		<activity android:name=".AthleticsFeeds" android:screenOrientation="portrait" > </activity>
+		<activity android:name=".PopulateRSS" android:screenOrientation="portrait" > </activity>
+        <activity android:name=".ShowNewsItem" android:screenOrientation="portrait"></activity>
+        <activity android:name=".Emergency" android:screenOrientation="portrait" > </activity>
+             
+		<uses-library android:required="true" android:name="com.google.android.maps"></uses-library>
+    </application>
+
+</manifest> 

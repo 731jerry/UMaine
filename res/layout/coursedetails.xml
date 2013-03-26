@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@color/maine_whiteblue">
+	<!-- Course Title -->
+	<TextView
+  		android:id="@+id/cdetail_title_tv"
+  		android:layout_alignParentTop="true"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:textStyle="bold"
+  		android:textSize="18sp"
+  		android:paddingTop="5dip"
+  		android:paddingLeft="5dip"
+  		android:paddingRight="5dip"
+  		android:paddingBottom="2dip"
+  		android:background="@color/maine_blue"
+  		android:textColor="@android:color/white" 
+  		android:typeface="serif"/>
+	<ScrollView
+		android:id="@+id/cdetails_scrollview"
+		android:layout_below="@+id/cdetail_title_tv"
+		android:layout_above="@+id/cdetails_buttonlayout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:scrollbarAlwaysDrawVerticalTrack="true"
+		android:scrollbars="vertical"
+		android:fadeScrollbars="false">	
+	<!-- Course Info -->
+	<LinearLayout
+		android:id="@+id/cdetailslinear"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+	<TextView
+ 	 	android:id="@+id/cdetails_courseinfo_tv"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:lineSpacingMultiplier="1.5"
+  		android:paddingTop="5dip"
+  		android:paddingLeft="15dip"
+  		android:textColor="@android:color/black"/>
+	<!-- Textbook heading -->
+	<TextView
+	  	android:id="@+id/cdetails_tbh_tv"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+  		android:text="Textbook"
+  		android:lineSpacingMultiplier="1.0"
+  		android:textStyle="bold"
+  		android:textColor="@android:color/black"
+  		android:textSize="16sp"
+  		android:background="@color/maine_lightblue"
+  		android:paddingLeft="5dip"/>
+  	<!-- Textbook information -->
+	<TextView
+	  	android:id="@+id/cdetails_tbi_tv"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:lineSpacingMultiplier="1.5"
+	  	android:paddingTop="5dip"
+	  	android:paddingLeft="15dip"
+	  	android:textColor="@android:color/black"/>
+	<!-- Instructor heading -->
+	<TextView
+		android:id="@+id/cdetails_ih_tv"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Instructor"
+		android:lineSpacingMultiplier="1.0"
+		android:textSize="16sp"
+		android:textColor="@android:color/black"
+		android:textStyle="bold"
+		android:background="@color/maine_lightblue"
+		android:paddingLeft="5dip" android:typeface="serif"/>
+	<TextView
+  		android:id="@+id/cdetails_ii_tv"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:lineSpacingMultiplier="1.5"
+  		android:autoLink="phone|email|web"
+  		android:paddingTop="5dip"
+  		android:paddingLeft="15dip"
+  		android:textColor="@android:color/black"/>
+  	</LinearLayout>
+  	</ScrollView>
+	<LinearLayout
+    	android:id="@+id/cdetails_buttonlayout"
+    	android:layout_alignParentBottom="true"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:weightSum="4">
+  		<Button  
+  			android:id="@+id/cdetails_map_btn" 
+  			android:text="Map it!" 
+  			android:layout_height="wrap_content"
+  			android:layout_width="0dp" 
+  			android:layout_weight="2"/>
+  		<Button
+  			android:id="@+id/cdetails_delete_btn"
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Delete Course"
+			android:layout_weight="2"/>
+</LinearLayout>
+</RelativeLayout>
